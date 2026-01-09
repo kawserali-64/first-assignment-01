@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-ber {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    align-items: center;
+}
+
+.nav-ber ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.btn button {
+    background: rgba(70, 145, 101, 1);
+    border: none;
+    color: white;
+    width: 164px;
+    height: 44px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #003319;
+    transition: 0.3s;
+}
